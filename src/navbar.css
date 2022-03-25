@@ -1,0 +1,45 @@
+/* styling for the navbar component */
+
+.topnav {
+    overflow: hidden;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.topnav a, .topnav .logout-btn {
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav-right {
+    padding-top: 10px;
+    margin-left: 20%;
+}
+
+.home-search, .user-profile{
+    padding-top: 10px;
+}
+
+.search-bar {
+    margin: 5px !important;
+}
+
+.topnav .nav-left-items{
+    display: flex;
+    flex-grow: 1;
+    text-align:center;
+}
+
+.topnav .nav-left-items .nav-left, .logout-btn
+{
+    padding-top: 10px !important;
+}
