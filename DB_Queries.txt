@@ -58,21 +58,13 @@ foreign key(uid) references user(id));
 insert into mst_secQues values("What is your best friend's name ?","What is your pet name ?"," Where were you when you had your first kiss? "," In what city or town was your first job?"," What is your mother's middle name?"," Who was your childhood hero? ");
 
 
-insert into user values(1,'rangineni@gmail.com','nikhil','rangineni',
+insert into user values(1,'sainikhil@gmail.com','nikhil','sai',
 2345678910,'qwerty');
 insert into user values(2,'amit@gmail.com','amit','nomula',
 4697895691,'aeiou');
-insert into user values(3,'shivam_m@gmail.com','shivam','mishra',
+insert into user values(3,'shiva_p@gmail.com','shiva','pulavarthy',
 9402300020,'qwerty@30');
-insert into user values(4,'rrr_123@gmail.com','rajashekar','rupanagudi',
+insert into user values(4,'swathi_v@gmail.com','swathi','vajrala',
 9407582951,'abcdef');
 insert into user values(5,'prathima@gmail.com','prathima','bommanigiri',
 9407581350,'asdfg@20');
-insert into user values(6,'prashanth_12@gmail.com','Prashanth','Chindepalli',
-9133557793,'chindepalli@23');
-insert into user values(7,'Harshada_12@gmail.com','harshada','Pol',
-7995726082,'pol@2345');
-insert into user values(8,'Pham@gmail.com','Trang','Pham',
-9723755315,'bhijnk@567');
-insert into user values(9,'Khalid@gmail.com','Khalid','Alkhaldi',
-5714305669,'khalid@90');
